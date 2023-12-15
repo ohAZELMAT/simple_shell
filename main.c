@@ -69,6 +69,7 @@ if (input == NULL)
 perror("Unable to allocate buffer");
 exit(1);
 }
+write(1, "#cisfun$ ", 9);
 ret = getline(&input, &input_size, stdin);
 if (ret == -1)
 {
@@ -89,6 +90,7 @@ if (input == NULL)
 perror("Unable to allocate buffer");
 exit(1);
 }
+write(1, "#cisfun$ ", 9);
 ret = getline(&input, &input_size, stdin);
 if (ret == -1)
 {
